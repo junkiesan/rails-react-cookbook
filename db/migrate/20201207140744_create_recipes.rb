@@ -4,7 +4,7 @@ class CreateRecipes < ActiveRecord::Migration[6.0]
       t.string :name, null: false
       t.text :ingredients, null: false
       t.text :instruction, null: false
-      t.string :image, default: ''
+      t.string :image, default: 'https://github.com/junkiesan/rails-react-cookbook/blob/master/app/assets/images/food.jpg'
 
       t.timestamps
     end
