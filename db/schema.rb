@@ -19,7 +19,7 @@ ActiveRecord::Schema.define(version: 2020_12_07_140744) do
     t.string "name", null: false
     t.text "ingredients", null: false
     t.text "instruction", null: false
-    t.string "image", default: "https://github.com/junkiesan/rails-react-cookbook/blob/master/app/assets/images/food.jpg"
+    t.string "image", default: "https://github.com/junkiesan/rails-react-cookbook/blob/master/app/assets/images/food.jpg?raw=true"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
