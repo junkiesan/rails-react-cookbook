@@ -1,24 +1,13 @@
-# README
+# Cookbook
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This app is a rails app with a react front-end. 
 
-Things you may want to cover:
+What you can do:
 
-* Ruby version
+* Create a recipe
 
-* System dependencies
+* List all recipes
 
-* Configuration
+* Show a recipe
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Destroy a recipe
